@@ -1,13 +1,13 @@
+
 *{
     box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
 }
 .main-class{
     position: absolute;
     height: 100%;
     width: 100%;
-    top: 0%;
-    left: 0%;
-    background-color: hsl(0deg 0% 100%);;
 }
 .main-body-div{
     display: flex;
@@ -121,7 +121,7 @@
 .fascilities{
     display: flex;
     align-items: center;
-    width: 25%;
+    width: 13rem;
     height: 100%;
 }
 .plus{
@@ -189,4 +189,10 @@
     height: 3rem;
     background-color: hsl(184deg 56% 95%);
     width: 100%;
+}
+@media screen and (max-width : 1025px) {
+    .main-class{
+        width: auto;
+        height: 100%;
+    }
 }
